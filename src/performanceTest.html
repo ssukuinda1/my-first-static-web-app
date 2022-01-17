@@ -28,20 +28,8 @@ source.addEventListener('input', InsertTextOfSize);
 function InsertTextOfSize(e){
   
   var baseString="韓国軍合同参謀本部は１９日、北朝鮮が同日、日本海に向けて飛翔（ひしょう）体を発射したと明らかにした。日米韓当局は、北朝鮮が新たにミサイルを発射した可能性があるとみて分析を進めている。北朝鮮は最近、新型"
-switch(e.target.value){
 
-  case "1000":
-document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(10)}</p>";
- case "2000":
-document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(20)}</p>";
-    case "4000":
-document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(0)}</p>";
-     case "8000":
-document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(100)}</p>";
-     
-  default:
-document.querySelector("#inputtext").innerHTML="";
-}
+document.querySelector("#inputText").innerHTML=`<p>${baseString.repeat(parseInt(e.target.value))}</p>`;
 
 }
   </script>
