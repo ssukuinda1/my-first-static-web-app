@@ -9,7 +9,7 @@ html, body {
   background-color: #088;
 }
 
-body .innerpage{
+body.innerpage{
  background-color: #0ff;
 }
 main {
