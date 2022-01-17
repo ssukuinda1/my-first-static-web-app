@@ -20,5 +20,6 @@ main > h1 {
   font-size: 3.5em;
 }
 button{
-color:#ff0;
+color:#222;
+background-color:#f00;  
 }
