@@ -31,13 +31,13 @@ function InsertTextOfSize(e){
 switch(e.target.value){
 
   case "1000":
-document.querySelector("#inputText").innerHTML="<p>{baseString.repeat(10)}</p>";
+document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(10)}</p>";
  case "2000":
-document.querySelector("#inputText").innerHTML="<p>{baseString.repeat(20)}</p>";
+document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(20)}</p>";
     case "4000":
-document.querySelector("#inputText").innerHTML="<p>{baseString.repeat(0)}</p>";
+document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(0)}</p>";
      case "8000":
-document.querySelector("#inputText").innerHTML="<p>{baseString.repeat(100)}</p>";
+document.querySelector("#inputText").innerHTML="<p>${baseString.repeat(100)}</p>";
      
   default:
 document.querySelector("#inputtext").innerHTML="";
