@@ -10,7 +10,7 @@ html, body {
 }
 
 body .innerpage{
- background-color: #ff0;
+ background-color: #088;
 }
 main {
   margin: auto;
@@ -24,5 +24,5 @@ main > h1 {
 }
 button{
 color:#222;
-background-color:#ff0;  
+background-color:#088;  
 }
