@@ -32,7 +32,7 @@ source.addEventListener('input', InsertTextOfSize);
 
 function InsertTextOfSize(e){
   
-  var baseString="韓国軍合同参謀本部は１９日、<a href="https://unisys.udemy.com/">北朝鮮が同日、日本海に向けて飛翔（ひしょう）体</a>を発射したと明らかにした。日米韓当局は、北朝鮮が新たにミサイルを発射した可能性があるとみて分析を進めている。北朝鮮は最近、新型"
+  var baseString=`韓国軍合同参謀本部は１９日、<a href="https://unisys.udemy.com/">北朝鮮が同日、日本海に向けて飛翔（ひしょう）体</a>を発射したと明らかにした。日米韓当局は、北朝鮮が新たにミサイルを発射した可能性があるとみて分析を進めている。北朝鮮は最近、新型`
 
 document.querySelector("#inputText").innerHTML=`<p>${baseString.repeat(parseInt(e.target.value))}</p>`;
 
